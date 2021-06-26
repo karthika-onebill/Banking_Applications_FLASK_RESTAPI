@@ -15,10 +15,12 @@ I posted my module2 assessments - Banking Application CRUD operations using FLAS
 
 
 # Update existing Customer data using Account Number
-![Screenshot from 2021-06-26 15-24-52](https://user-images.githubusercontent.com/84618520/123509503-88e24980-d693-11eb-8e80-7a04ef938339.png)
+![Screenshot from 2021-06-26 15-24-45](https://user-images.githubusercontent.com/84618520/123509732-d8754500-d694-11eb-9a58-2f724c6a27ab.png)
+
 
 # Delete Existing Customer Data using Account Number
-![Screenshot from 2021-06-26 15-25-09](https://user-images.githubusercontent.com/84618520/123509516-98fa2900-d693-11eb-991d-1f05a0e59d9f.png)
+![Screenshot from 2021-06-26 15-25-07](https://user-images.githubusercontent.com/84618520/123509725-ca272900-d694-11eb-97a3-a69464e80554.png)
+
 
 # Debit Withdraw
 ![Screenshot from 2021-06-26 15-25-30](https://user-images.githubusercontent.com/84618520/123509529-a44d5480-d693-11eb-9c84-a03c0dc566cd.png)
