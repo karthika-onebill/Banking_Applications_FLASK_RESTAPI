@@ -31,4 +31,4 @@ I posted my module2 assessments - Banking Application CRUD operations using FLAS
 
 
 # Balance Enquiry
-![Screenshot from 2021-06-26 15-23-32](https://user-images.githubusercontent.com/84618520/123509563-d068d580-d693-11eb-9987-196d21267abd.png)
+![Screenshot from 2021-06-26 15-26-04](https://user-images.githubusercontent.com/84618520/123509691-951ad680-d694-11eb-81aa-f740c8d473af.png)
