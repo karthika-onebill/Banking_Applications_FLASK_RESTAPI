@@ -5,10 +5,11 @@ I posted my module2 assessments - Banking Application CRUD operations using FLAS
 ![Screenshot from 2021-06-26 15-23-32](https://user-images.githubusercontent.com/84618520/123509420-06f22080-d693-11eb-9e29-cfa4d30e1187.png)
 
 # View All Customer Details
-![Screenshot from 2021-06-26 15-23-51](https://user-images.githubusercontent.com/84618520/123509480-6819f400-d693-11eb-92aa-b1da705c9126.png)
+
+![Screenshot from 2021-06-26 15-24-24](https://user-images.githubusercontent.com/84618520/123509598-06a65500-d694-11eb-9745-f288bd2ba763.png)
 
 # View Particular Customer Details based on Customer Account number
-![Screenshot from 2021-06-26 15-24-24](https://user-images.githubusercontent.com/84618520/123509598-06a65500-d694-11eb-9745-f288bd2ba763.png)
+![Screenshot from 2021-06-26 15-23-51](https://user-images.githubusercontent.com/84618520/123509480-6819f400-d693-11eb-92aa-b1da705c9126.png)
 # Add new Customer 
 ![Screenshot from 2021-06-26 15-24-24](https://user-images.githubusercontent.com/84618520/123509497-7c5df100-d693-11eb-88c5-5e76abb9d584.png)
 
