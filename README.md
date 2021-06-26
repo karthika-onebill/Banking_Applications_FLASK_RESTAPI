@@ -22,7 +22,6 @@ I posted my module2 assessments - Banking Application CRUD operations using FLAS
 
 # Debit Withdraw
 ![Screenshot from 2021-06-26 15-25-30](https://user-images.githubusercontent.com/84618520/123509529-a44d5480-d693-11eb-9c84-a03c0dc566cd.png)
-![Screenshot from 2021-06-26 15-26-01](https://user-images.githubusercontent.com/84618520/123509553-c21ab980-d693-11eb-9183-8af88704cd5e.png)
 
 
 # Credit Deposit
