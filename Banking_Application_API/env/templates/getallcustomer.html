@@ -1,0 +1,77 @@
+<!--Store this code in 'display.html' file inside the 'templates' folder-->
+
+<html lang="en">
+
+<head>
+    <title>display</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body bgcolor="#e6ffee">
+    <div class="one">
+        <div class="two">
+            <h1>Banking Operations</h1>
+            <ul>
+                <li class="active"><a href="{{url_for('getAllDetails')}}">All Customer details</a></li>
+                <li><a href="{{url_for('getParticularDetails')}}">Get Particular customer details</a></li>
+                <li><a href="{{url_for('postData')}}">Add new customer details</a></li>
+                <li><a href="{{url_for('update')}}">Update customer details</a></li>
+                <li><a href="{{url_for('delete')}}">Delete customer details</a></li>
+                <li><a href="{{url_for('withdraw')}}">Debit Amount</a></li>
+                <li><a href="{{url_for('deposit')}}">Credit Amount</a></li>
+                <li><a href="{{url_for('balance')}}">Balance Enquiry</a></li>
+                </li>
+            </ul>
+
+        </div>
+        <div class="content" align="center">
+            <div class="topbar">
+                <h2>Welcome to ABC Bank of India </h2>
+            </div> </br>
+            <div>
+
+                {% block content %}
+                <div class="border">
+                    <table cellspacing="20px"></br></br></br></br>
+
+                        <tr>
+                            <th>Customer Name</th>
+                            <th></th>
+                            <th>Account Number</th>
+                            <th></th>
+                            <th>Account Type</th>
+                            <th></th>
+                            <th>Available Balance</th>
+
+                        </tr>
+                        {%for i in range(0, n)%}
+
+                        <tr>
+
+
+                            <td>{{ account[i]['customer_name'] }}</td>
+                            <td></td>
+                            <td>{{ account[i]['account_number'] }}</td>
+                            <td></td>
+                            <td>{{ account[i]['account_type'] }}</td>
+                            <td></td>
+                            <td>{{ account[i]['available_balance'] }}</td>
+                            <td></td>
+                        </tr>
+                        {%endfor%}
+
+
+
+
+
+
+                    </table>
+                </div>
+                {% endblock %}
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

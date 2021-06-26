@@ -1,0 +1,43 @@
+<!--Store this code in 'index.html' file inside the 'templates' folder-->
+<html lang="en">
+
+<head>
+    <title>index</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body bgcolor="#e6ffee">
+    <div class="one">
+        <div class="two">
+            <h1>Banking Operations</h1>
+            <ul>
+                <li class="active"><a href="{{url_for('getAllDetails')}}">All Customer details</a></li>
+                <li><a href="{{url_for('getParticularDetails')}}">Get Particular customer details</a></li>
+                <li><a href="{{url_for('postData')}}">Add new customer details</a></li>
+                <li><a href="{{url_for('update')}}">Update customer details</a></li>
+                <li><a href="{{url_for('delete')}}">Delete customer details</a></li>
+                <li><a href="{{url_for('withdraw')}}">Debit Amount</a></li>
+                <li><a href="{{url_for('deposit')}}">Credit Amount</a></li>
+                <li><a href="{{url_for('balance')}}">Balance Enquiry</a></li>
+                </li>
+
+
+            </ul>
+
+        </div>
+        <div class="content" align="center">
+            <div class="topbar">
+                <h2>Welcome to ABC Bank of India </h2>
+            </div></br></br>
+            <div class="contentbar">
+                <div class="msg">
+                    <h4>{{ msg }}</h4>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

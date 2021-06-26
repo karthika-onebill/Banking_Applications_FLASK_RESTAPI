@@ -1,0 +1,53 @@
+<!--Store this code in 'balance.html' file inside the 'templates' folder-->
+<html lang="en">
+
+<head>
+    <title>index</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+
+<body bgcolor="#e6ffee">
+    <div class="one">
+        <div class="two">
+            <h1>Banking Operations</h1>
+            <ul>
+                <li><a href="{{url_for('getAllDetails')}}">All Customer details</a></li>
+                <li><a href="{{url_for('getParticularDetails')}}">Get Particular customer details</a></li>
+                <li><a href="{{url_for('postData')}}">Add new customer details</a></li>
+                <li><a href="{{url_for('update')}}">Update customer details</a></li>
+                <li><a href="{{url_for('delete')}}">Delete customer details</a></li>
+
+                <li><a href="{{url_for('withdraw')}}">Debit Amount</a></li>
+                <li><a href="{{url_for('deposit')}}">Credit Amount</a></li>
+
+                <li class="active"><a href="{{url_for('balance')}}">Balance Enquiry</a></li>
+                </li>
+
+
+            </ul>
+
+        </div>
+        <div class="content" align="center">
+            <div class="topbar">
+                <h2>Welcome to ABC Bank of India </h2>
+            </div></br></br>
+            <div class="contentbar">
+                <div class="registerbottom">
+                    <form action="{{ url_for('balance')}}" method="post" autocomplete="off">
+                        <input type="text" name="account_no" placeholder="Enter Your Account Number" class="textbox"
+                            id="account_no" required></br></br>
+
+
+
+                        <input type="submit" class="btn" value="Check Balance">
+                    </form>
+
+                </div>
+                <div>
+                    <br /><br><br>
+                    <h4>Your Available Balance <br />{{balance}}</h4>
+                </div>
+            </div>
+</body>
+
+</html>
